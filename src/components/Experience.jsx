@@ -1,9 +1,10 @@
 import React from 'react'
+
 import html from '../assets/html.png'
 import css from '../assets/css.png'
 import javascript from '../assets/javascript.png'
-import react from '../assets/react.png'
-import node from '../assets/node.png'
+import reactImage from '../assets/react.png'
+import nodejs from '../assets/node.png'
 import mongo from '../assets/mongo.png'
 
 const Experience = () => {
@@ -28,13 +29,13 @@ const Experience = () => {
         },
         {
             id:4,
-            src:react,
+            src:reactImage,
             title:"REACT",
             style:'shadow-blue-600'
         },
         {
             id:5,
-            src:node,
+            src:nodejs,
             title:"NODE",
             style:'shadow-green-600'
         },
@@ -57,7 +58,7 @@ const Experience = () => {
 
                 {
                     techs.map(({id,src,title,style})=> (
-                        <div key={id} className={'shadow-md hover:scale-105 duration-500 py-2 rounded-lg' + " " + style}>
+                        <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
                     <img src={src} alt={title} className='w-20 mx-auto'/>
                     <p className='mt-4'>{title}</p>
                 </div>
