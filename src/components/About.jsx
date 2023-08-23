@@ -11,13 +11,14 @@ const About=() =>{
             </div>
 
             <p className='text-xl mt-20'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellat itaque tempora hic voluptatum sunt quam voluptatibus expedita error non! Fugiat recusandae commodi consequuntur repellat natus ullam, facere eveniet illum.
+                Currently pursuing Bachelor of Technology in the stream of Computer Science and Engineering with good technical skills and experience of hands-on projects across full-stack web applications.
             </p>
 
             <br />
 
             <p className='text-xl'>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto atque molestiae nesciunt corporis officia minima quis libero. Numquam provident placeat itaque quis minima dolorum voluptatum asperiores, fugit eius, ipsa fugiat omnis laboriosam libero error dolores. Eligendi nulla vitae ipsa saepe soluta praesentium obcaecati deleniti expedita? 
+               {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto atque molestiae nesciunt corporis officia minima quis libero. Numquam provident placeat itaque quis minima dolorum voluptatum asperiores, fugit eius, ipsa fugiat omnis laboriosam libero error dolores. Eligendi nulla vitae ipsa saepe soluta praesentium obcaecati deleniti expedita?  */}
+                I love to travel and explore new places with pleasant nature, I enjoy cooking, My ultimate stress buster is to listening to melodious music.
             </p>
         </div>
     </div>
